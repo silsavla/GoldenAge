@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "gender": "male",
+      "firstname": "Brad",
+      "lastname": "Gibson",
+      "email": "brad.gibson@example.com",
+      "login": {
+        "userPersonName": "silverswan131",
+        "password": "firewall"
+      },
+      "dob": {
+        "date": "1993-07-20T09:44:18.674Z",
+        "age": 73
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "interests": ["boomer humor", "reading", "sleeping", "woodworking", "politics"],
+      "friends": [
+        {
+          "first": "Mary",
+          "last": "Jane"
+        },
+        {
+          "first": "Marty",
+          "last": "Oswald"
+        },
+        {
+          "first": "Jack",
+          "last": "Jackson"
+        }
+      ]
+
+    },
+
+
+    {
+      "gender": "female",
+      "firstname": "Mary",
+      "lastname": "Jane",
+      "email": "maryjane@example.com",
+      "login": {
+        "userPersonName": "maryjane@example.com",
+        "password": "firewall"
+      },
+      "dob": {
+        "date": "1993-07-20T09:44:18.674Z",
+        "age": 73
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "interests": ["reading", "sleeping", "cooking"],
+      "friends": [
+        {
+          "first": "Brad",
+          "last": "Gibson"
+        }
+      ]
+
+    },
+    {
+      "gender": "male",
+      "firstname": "Marty",
+      "lastname": "Oswald",
+      "email": "martyoswald@example.com",
+      "login": {
+        "userPersonName": "martyoswald@example.com",
+        "password": "firewall"
+      },
+      "dob": {
+        "date": "1993-07-20T09:44:18.674Z",
+        "age": 73
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "interests": ["reading", "sleeping", "woodworking"],
+      "friends": [
+        {
+          "first": "Brad",
+          "last": "Gibson"
+        },
+        {
+          "first": "Jack",
+          "last": "Jackson"
+        }
+      ]
+
+    },
+
+
+    {
+      "gender": "male",
+      "firstname": "Jack",
+      "lastname": "Jackson",
+      "email": "jackjackson@example.com",
+      "login": {
+        "userPersonName": "jackjackson@example.com",
+        "password": "firewall"
+      },
+      "dob": {
+        "date": "1993-07-20T09:44:18.674Z",
+        "age": 73
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "interests": ["reading"],
+      "friends": [
+        {
+          "first": "Brad",
+          "last": "Gibson"
+        },
+        {
+          "first": "Marty",
+          "last": "Oswald"
+        }
+      ]
+
+    }
+
+
+
+  ]
+}
