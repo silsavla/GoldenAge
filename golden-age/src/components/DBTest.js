@@ -5,13 +5,22 @@ import {addUserToDB} from './DataBase'
 
 
 
-class PageThree extends Component {
+class DBTest extends Component {
 
   handleClick = ()=> {
     let person = {name: 'bob', age: 72}
-    addUserToDB(person)
+    //This was to quickly add fake users to DB
+    // var importedData = require('./Data/users.json');
+    //
+    // for (var i = 0; i < importedData.users.length; i++) {
+    //   addUserToDB(importedData.users[i])
+    // }
+
+
     alert("added")
   }
+
+
 
 
   render() {
@@ -29,4 +38,4 @@ class PageThree extends Component {
 }
 
 
-export default (PageThree)
+export default (DBTest)
