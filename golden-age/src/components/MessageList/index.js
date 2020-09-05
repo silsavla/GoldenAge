@@ -16,9 +16,9 @@ export default function MessageList(props) {
     getMessages();
   },[])
 
-  
+
   const getMessages = () => {
-     var tempMessages = [
+     var tempMessages = [ 
         {
           id: 1,
           author: 'apple',
@@ -104,7 +104,7 @@ export default function MessageList(props) {
         let previousMoment = moment(previous.timestamp);
         let previousDuration = moment.duration(currentMoment.diff(previousMoment));
         prevBySameAuthor = previous.author === current.author;
-        
+
         if (prevBySameAuthor && previousDuration.as('hours') < 1) {
           startsSequence = false;
         }
