@@ -7,6 +7,7 @@ import PageOne from './components/PageOne'
 import PageTwo from './components/PageTwo'
 import PageThree from './components/PageThree'
 import Messenger from './components/Messenger/index.js'
+import DBTest from './components/DBTest'
 //import here
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
                     <Route path="/PageOne" component={Messenger}/>
                     <Route path="/PageTwo" component={PageTwo}/>
                     <Route path="/PageThree" component={PageThree}/>
+                    <Route path="/DBTest" component={DBTest}/>
 
                 </Switch>
              </div>
