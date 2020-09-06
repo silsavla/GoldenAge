@@ -7,9 +7,11 @@ import PageOne from './components/PageOne'
 import PageTwo from './components/PageTwo'
 import PageThree from './components/PageThree'
 import Messenger from './components/Messenger/index.js'
+import SignUp from './components/SignUp'
 import DBTest from './components/DBTest'
 import PouchDB from 'pouchdb-browser'
 import {addUserToDB, getDBInfo, db, remoteDB} from './components/DataBase'
+
 
 
 class App extends Component {
@@ -79,9 +81,9 @@ class App extends Component {
               <Navbar/>
                 <Switch>
                     <Route exact path="/" render={() => <StartPage txt ={this.state.users.length}/>} />
-                    <Route path="/PageOne" render={() => <Messenger  users ={this.state.users}/>}/>
+                    <Route path="/Messenger" render={() => <Messenger  users ={this.state.users}/>}/>
+                    <Route path="/SignUp" render={() => <SignUp users ={this.state.users}/>}/>
                     <Route path="/PageTwo" component={PageTwo}/>
-                    <Route path="/PageThree" component={PageThree}/>
                     <Route path="/DBTest" component={DBTest}/>
 
                 </Switch>

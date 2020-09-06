@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import gradientLogo from "./images/golden_age_gradient.png"
 
 
 
@@ -15,12 +16,15 @@ class StartPage extends Component {
 
     return(
       <div class="row center">
-        <h5 class="row center">This is the Start Page</h5>
-        <p>{this.props.txt}</p>
+      <div class="row center">
 
-        <Link to ="/PageTwo"><a class="waves-effect waves-light btn">sign up</a></Link>
-        <a class="waves-effect waves-light btn">log in</a>
+        <img  src={"./images/golden_age_gradient.png"}></img>
       </div>
+      <div class="row center">
+        <Link to ="/SignUp"><a class="waves-effect waves-light btn-large">sign up</a></Link>
+        <a class="waves-effect waves-light btn-large">log in</a>
+      </div>
+        </div>
 
 
     )

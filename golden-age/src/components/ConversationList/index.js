@@ -13,7 +13,7 @@ class ConversationList extends Component{
     super(props);
   }
   render() {
-
+    
     let conversations = this.props.users.map(user => {
       return {
         photo: user.doc.picture,
@@ -24,7 +24,7 @@ class ConversationList extends Component{
     });
     return (
       <div className="conversation-list">
-      
+
         <ConversationSearch />
         {
           conversations.map(conversation =>
