@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from 'react';
+
+import React, {useEffect, useState, Component} from 'react';
 import Compose from '../Compose';
 import Toolbar from '../Toolbar';
 import ToolbarButton from '../ToolbarButton';
@@ -9,6 +10,10 @@ import './MessageList.css';
 
 const MY_USER_ID = 'apple';
 
+
+
+
+
 export default function MessageList(props) {
   const [messages, setMessages] = useState([])
 
@@ -18,7 +23,7 @@ export default function MessageList(props) {
 
 
   const getMessages = () => {
-     var tempMessages = [ 
+     var tempMessages = [
         {
           id: 1,
           author: 'apple',

@@ -21,3 +21,15 @@ export function addUserToDB(user) {
   });
 
 }
+
+export function getDBInfo() {
+
+  let result = db.info(function callback(err, result) {
+    if (!err) {
+      console.log('successfully checked DB info');
+    }
+    return result
+  });
+  return result
+
+}

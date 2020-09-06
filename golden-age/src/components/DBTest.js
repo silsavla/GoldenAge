@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {addUserToDB} from './DataBase'
+import {addUserToDB, getDBInfo} from './DataBase'
 
 
 
@@ -15,9 +15,12 @@ class DBTest extends Component {
     // for (var i = 0; i < importedData.users.length; i++) {
     //   addUserToDB(importedData.users[i])
     // }
+    // alert("added")
+
+    let info = getDBInfo()
+    alert(info)
 
 
-    alert("added")
   }
 
 
